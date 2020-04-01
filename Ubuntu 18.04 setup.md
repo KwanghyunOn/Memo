@@ -16,9 +16,7 @@ This document includes installation of CUDA and cuDNN.
 
 ```$ sudo apt-get install build-essential```
 
-
-
-
+<br><br>
 
 ## (STEP 1) Install NVIDIA driver
 
@@ -48,7 +46,7 @@ or
 
 and check the driver has changed to nvidia; ```configuration: driver=nvidia```.
 
-
+<br><br>
 
 ## (STEP 2) Install CUDA 10.1
 
@@ -88,7 +86,7 @@ $ echo $LD_LIBRARY_PATH
 
 This will show nothing if the installation has failed or PATH variable hasn't been updated properly.
 
-
+<br><br>
 
 ## (STEP 3) Install cuDNN
 
