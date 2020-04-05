@@ -109,3 +109,32 @@ should show something like
 
 #include "driver_types.h"
 ```
+
+<br>
+
+## (STEP 4) Install TensorFlow 2
+
+[Official tensorflow installation guide](https://www.tensorflow.org/install)
+
+### 3.1 - install pip, setuptools
+
+```
+$ sudo apt update
+$ sudo apt install python3-pip
+$ pip3 --version
+$ sudo pip3 install pip --upgrade
+$ pip --version
+
+$ sudo apt install python3-dev python3-setuptools
+$ pip show setuptools		// version should be >= 40.3.0
+```
+
+### 3.2 - install tensorflow
+
+```
+$ pip install tensorflow
+$ pip show tensorflow
+```
+
+<br>
+
