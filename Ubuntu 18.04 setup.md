@@ -136,5 +136,13 @@ $ pip install tensorflow
 $ pip show tensorflow
 ```
 
+### 3.3 - check tensorflow code
+
+There is [tensorflow test code](https://github.com/KwanghyunOn/Memo/blob/master/test_tf.py) in my github.
+
+```
+$ python3 test_tf.py
+```
+
 <br>
 
