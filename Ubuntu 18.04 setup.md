@@ -146,3 +146,29 @@ $ python3 test_tf.py
 
 <br>
 
+## (STEP 5) Install Docker
+
+### 3.1 - install docker
+
+Follow [official docker installation guide](https://docs.docker.com/install/linux/docker-ce/ubuntu/).
+
+### 3.2 - run docker without sudo
+
+[Docker docs link for this step](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+
+```
+$ sudo usermod -aG docker $USER
+$ reboot
+$ docker run hello-world
+```
+
+### 3.3 - (optional) install tensorflow docker image
+
+[TensorFlow docker guide](https://www.tensorflow.org/install/docker?hl=ko)
+
+```
+$ docker pull tensorflow/tensorflow:2.1.0-gpu-py3
+```
+
+<br>
+
